@@ -1,0 +1,104 @@
+.bg-container{
+    padding: 10px 20px;
+}
+.logo{
+    font-weight: 800;
+    position: sticky;
+    overflow: hidden;
+}
+.logo-span{
+    color: yellowgreen;
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+.tasks-bg-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'roboto';
+    margin-top: 20px;
+    position: relative;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    align-self: center;
+    font-family: 'roboto';
+}
+#title{
+    width: 97%;
+}
+.label{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px 0px;
+}
+.form-container input{
+    padding: 10px 5px;
+    font-size: 16px;
+    font-family: 'roboto';
+}
+.form-container textarea{
+    margin: 0px 0px;
+    font-size: 16px;
+    padding: 10px 3px;
+    font-family: 'roboto';
+}
+.radio-btns-container{
+    margin: 20px 0px;
+}
+.radio-btns-container label{
+    margin-right: 10px;
+    font-family: 'roboto';
+}
+.add-btn{
+    background-color: #0070c1;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    width: 180px;
+    padding: 10px 20px;
+    border: none;
+}
+.add-btn:hover{
+    cursor: pointer;
+}
+.tasks-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    font-family: 'roboto';
+    overflow-y: scroll;
+}
+.select-container{
+    width: 200px;
+    height: 30px;
+    padding: 5px 10px;
+    align-self: center;
+}
+.btm-title{
+    text-align: center;
+    color: #29778f;
+}
+.err-msg{
+    text-align: center;
+    color: red;
+    width: 100%;
+}
+.btm-ele-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media screen and (max-width: 576px) {
+    .tasks-bg-container{
+        display: flex;
+        justify-content: center;
+    }
+}

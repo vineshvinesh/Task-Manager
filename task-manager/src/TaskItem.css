@@ -1,0 +1,65 @@
+.task-item-container{
+    margin: 10px 20px;
+    height: 150px;
+    width: 400px;
+    background-color: #b6b3bb;
+    list-style-type: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-family: "roboto";
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.right-container{
+    margin-left: auto;
+}
+.text-container{
+    width: 70%;
+    margin-right: 10px;
+    font-family: 'roboto';
+}
+.task-title{
+    font-size: 18px;
+    margin-bottom: -15px;
+    color: rgb(24, 14, 33);
+    font-family: 'roboto';
+}
+.span-text{
+overflow-y: scroll;   
+overflow-x: hidden;
+height: 40px;
+scrollbar-width: none;
+color: #122548;
+font-weight: 700;
+font-family: 'roboto';
+
+}
+.date{
+    font-size: 14px;
+    padding: 0px;
+    width: 150px;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    font-family: 'roboto';
+}
+.delete-icon{
+    margin-left: 80%;
+    height: 35px;
+    width: 35px;
+    margin-top:30px;
+}
+.delete-icon:hover{
+    cursor: pointer;
+}
+.span-status{
+    color: #37875b;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "roboto";
+}
+.status{
+    font-size: 15px;
+    font-family: 'roboto';
+    margin-top: -20px;
+}
